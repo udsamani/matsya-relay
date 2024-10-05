@@ -1,0 +1,7 @@
+[package]
+name = "matsya-common"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+thiserror = { workspace = true }
