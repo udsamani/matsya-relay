@@ -1,0 +1,7 @@
+[package]
+name = "matsya-app"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+matsya-common = { path = "../matsya-common" }

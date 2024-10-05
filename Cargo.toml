@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/matsya-app",
+    "crates/matsya-common",
+]
+
+
+[workspace.dependencies]
+thiserror = { version = "1.0.64"}
