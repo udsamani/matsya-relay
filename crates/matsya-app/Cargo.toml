@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 matsya-common = { path = "../matsya-common" }
+async-trait = { workspace = true }
+config = { workspace = true }
+tokio = { workspace = true, features = ["rt-multi-thread"] }
