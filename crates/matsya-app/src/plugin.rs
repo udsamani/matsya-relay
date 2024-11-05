@@ -1,6 +1,6 @@
 use matsya_common::MatsyaRelayResult;
 
-use crate::runner::App;
+use crate::app::App;
 
 #[allow(dead_code)]
 pub trait Plugin {
